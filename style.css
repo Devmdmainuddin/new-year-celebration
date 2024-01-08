@@ -22,7 +22,9 @@ section{
 img{
     width: 100%;
 }
-
+ul li{
+    list-style:none;
+}
 /*............................*/
 /*............................*/
 .section_header h3{
@@ -384,4 +386,59 @@ form input{
 }
 /*...........end Newsletter...........*/
 
+/*...........start footer...........*/
+footer{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    background: #070211;
+}
+footer .container{
+    margin:120px 140px 0 140px;
+    max-width: 1320px;
+}
+footer .footer-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+   
+}
+footer .footer-head .addres,
+footer .footer-head .contact{
+    margin-top:120px;
+    margin-bottom: 50px;
+   
+}
+footer .footer-head .contact p{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+   
+}
+footer .footer-head .contact .icon{
+    width: 32px;
+    height: 32px; 
+    margin-right:8px;
+}
+footer .footer-body ul{
+display: flex;
+justify-content: center;
+align-items: center;
+gap:24px;
+padding:48px 0 48px 0;
+}
 
+.copy-right .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+   width: 100%;
+   padding-top:50px;
+    padding-bottom:120px;
+}
+/*...........end footer...........*/
