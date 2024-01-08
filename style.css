@@ -231,12 +231,13 @@ line-height: 95px;
 
 .best_offer .container .right_content h2{
     color: #070211;
-    font-family: 'Merriweather', serif;
+    font-family: 'Inter', sans-serif;
     font-size: 48px;
     font-weight: 900;
     text-transform: capitalize;
 }
 .best_offer .right_content p{
+    width:276px;
     color: rgba(7, 2, 17, 0.60);
     font-family: 'Inter', sans-serif;
     font-size: 20px;
@@ -249,4 +250,78 @@ line-height: 95px;
     height: 140px;
 }
 /*...........end best_offer...........*/
+
+
+/*...........start holiday_offer...........*/
+
+.holiday_offer .container .contant{ 
+    text-align: center;
+}
+.holiday_offer .contant h3{
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+.holiday_offer .contant h1{
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-weight: 900;
+}
+.holiday_offer .contant h1 span{
+    color: #F00;
+}
+.holiday_offer .contant p{
+    padding:0 18px;
+    margin:28px 266px 64px 266px;
+    color: rgba(7, 2, 17, 0.60); 
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+
+.holiday_offer .offer_box_container{
+    display: flex;
+    justify-content: space-between;
+   align-items: baseline;
+}
+
+.holiday_offer .offer_box_container .left_box{
+    width:550px;
+    height:433px;
+    position: relative;
+    bottom:-115px;
+    left:59px;
+}
+.holiday_offer .offer_box_container .right_box{
+    width:429px;
+    height:433px;
+    position: relative;
+}
+.holiday_offer .offer_box_container .right_box img{
+    max-width: 429px;
+    position: relative;
+    right:0;
+    bottom:0;
+}
+.holiday_offer .offer_box_container .right_box .discount{
+    width:280px;
+    height:280px;
+    position: absolute;
+    top:77px;
+    left:-110px;
+    margin:0;
+}
+.holiday_offer .container .bottom-background{
+    width:100%;
+    height:229px ;
+    background-image: url(image/Rectangle\ 2.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+/*...........end holiday_offer...........*/
+
 
