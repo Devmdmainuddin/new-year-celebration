@@ -28,13 +28,13 @@ ul li{
 }
 /*............................*/
 /*............................*/
-.section_header h3{
+.section-header h3{
     color: #F00;
     font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 500;
 }
-.section_header h2{
+.section-header h2{
     color: #070211;
     font-family: 'Merriweather', serif;
     font-size: 48px;
@@ -42,7 +42,7 @@ ul li{
     text-transform: capitalize;
     margin-top: 18px;
 }
-.section_header p{
+.section-header p{
     color: rgba(7, 2, 17, 0.60);
     font-family: 'Inter', sans-serif;
     font-size: 20px;
@@ -124,7 +124,7 @@ line-height: 95px;
 
 /*...........start party_section...........*/
 
-.party_section .container{
+.party-section .container{
     background-image:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url(image/Vectorrr.png);
     height: 600px;
     background-size: cover;
@@ -132,11 +132,11 @@ line-height: 95px;
     justify-content: center;
     align-items: center;
 }
-.party_section .container .party_contant{ 
+.party-section .container .party-contant{ 
    margin:126px 39px 142px 126px;
 }
 
-.party_section .container .party_contant h1{
+.party-section .container .party-contant h1{
     color: #FFF;
     font-family: 'Merriweather', serif;
     font-size: 64px;
@@ -145,14 +145,14 @@ line-height: 95px;
     letter-spacing: 7.04px;
     margin:0 55px 24px 0;
 }
-.party_section .container .party_contant p{
+.party-section .container .party-contant p{
     color: rgba(255, 255, 255, 0.80);
     font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px; 
 }
-.party_section .container .party_contant .btn{
+.party-section .container .party-contant .btn{
     color: #FFF;
     background-color: transparent;
     text-align: center;
@@ -164,25 +164,25 @@ line-height: 95px;
     outline:none;
     margin: 48px 0 48px 32px;
 }
-.party_section .container .party_pic{
+.party-section .container .party-pic{
     margin:68px 138px 67px 0;
 }
 /*...........end party_section...........*/
 
 /*...........start event_schedule...........*/
 
-.event_schedule .container{
+.event-schedule .container{
     height:482px;
     background-image:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     display: flex;
     justify-content: center;
    
 }
-.event_schedule .container .event_content{
+.event-schedule .container .event-content{
     text-align: center;
     margin:100px 385px 110px 386px;
 }
-.event_schedule .container .event_content h3{
+.event-schedule .container .event-content h3{
     color: #070211;
     font-family: 'Inter', sans-serif;
     font-size: 32px;
@@ -191,11 +191,11 @@ line-height: 95px;
     line-height: 56px;
     text-transform: capitalize;
 } 
-.event_schedule .container .event_content h3 span{
+.event-schedule .container .event-content h3 span{
     color: #F00;
    
 } 
-.event_schedule .container .event_content .join_now_btn{
+.event-schedule .container .event-content .join-now-btn{
     color: #FFF;
     border-radius: 8px;
     background: #F00;
@@ -211,33 +211,33 @@ line-height: 95px;
 /*...........end event_schedule...........*/
 
 /*...........start best_offer...........*/
-.best_offer .container{
+.best-offer .container{
     display:flex;
     align-items: center;
     justify-content: space-between;
    
 }
 
-.best_offer .container .offer_pic{
+.best-offer .container .offer-pic{
     border-radius: 463px;
     border: 15px solid #F00;
     padding:49px;
     margin:0 110px 0 70px;
 }
-.best_offer .container .offer_pic img{
+.best-offer .container .offer-pic img{
     width: 364px;
     height: 364px;
    
 }
 
-.best_offer .container .right_content h2{
+.best-offer .container .right-content h2{
     color: #070211;
     font-family: 'Inter', sans-serif;
     font-size: 48px;
     font-weight: 900;
     text-transform: capitalize;
 }
-.best_offer .right_content p{
+.best-offer .right-content p{
     width:276px;
     color: rgba(7, 2, 17, 0.60);
     font-family: 'Inter', sans-serif;
@@ -246,7 +246,7 @@ line-height: 95px;
     line-height: 32px;
     margin:10px 0 43px 0;
 }
-.best_offer .right_content img{
+.best-offer .right-content img{
     width: 140px;
     height: 140px;
 }
