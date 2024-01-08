@@ -10,13 +10,14 @@
   
   }
 section{
-    margin:0 140px 120px 140px;
+    
     max-width: 1320px;
+    margin:0 auto;
 }
 
 .container{
     width: 100%;
-    
+    margin:0 140px 120px 140px;
     
 }
 img{
@@ -122,12 +123,11 @@ line-height: 95px;
 /*...........end hot_deals...........*/
 
 /*...........start party_section...........*/
-.party_section{
+
+.party_section .container{
     background-image:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url(image/Vectorrr.png);
     height: 600px;
     background-size: cover;
-}
-.party_section .container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -171,12 +171,9 @@ line-height: 95px;
 
 /*...........start event_schedule...........*/
 
-.event_schedule {
+.event_schedule .container{
     height:482px;
     background-image:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-    
-}
-.event_schedule .container{
     display: flex;
     justify-content: center;
    
@@ -258,25 +255,25 @@ line-height: 95px;
 
 /*...........start holiday_offer...........*/
 
-.holiday_offer .container .contant{ 
+.holiday-offer .container .contant{ 
     text-align: center;
 }
-.holiday_offer .contant h3{
+.holiday-offer .contant h3{
     color: #070211;
     font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 500;
 }
-.holiday_offer .contant h1{
+.holiday-offer .contant h1{
     color: #070211;
     font-family: 'Merriweather', serif;
     font-size: 72px;
     font-weight: 900;
 }
-.holiday_offer .contant h1 span{
+.holiday-offer .contant h1 span{
     color: #F00;
 }
-.holiday_offer .contant p{
+.holiday-offer .contant p{
     padding:0 18px;
     margin:28px 266px 64px 266px;
     color: rgba(7, 2, 17, 0.60); 
@@ -287,31 +284,31 @@ line-height: 95px;
 }
 
 
-.holiday_offer .offer_box_container{
+.holiday-offer .offer-box-container{
     display: flex;
     justify-content: space-between;
    align-items: baseline;
 }
 
-.holiday_offer .offer_box_container .left_box{
+.holiday-offer .offer-box-container .left-box{
     width:550px;
     height:433px;
     position: relative;
     bottom:-115px;
     left:59px;
 }
-.holiday_offer .offer_box_container .right_box{
+.holiday-offer .offer-box-container .right-box{
     width:429px;
     height:433px;
     position: relative;
 }
-.holiday_offer .offer_box_container .right_box img{
+.holiday-offer .offer-box-container .right-box img{
     max-width: 429px;
     position: relative;
     right:0;
     bottom:0;
 }
-.holiday_offer .offer_box_container .right_box .discount{
+.holiday-offer .offer-box-container .right-box .discount{
     width:280px;
     height:280px;
     position: absolute;
@@ -319,7 +316,7 @@ line-height: 95px;
     left:-110px;
     margin:0;
 }
-.holiday_offer .container .bottom-background{
+.holiday-offer .container .bottom-background{
     width:100%;
     height:229px ;
     background-image: url(image/Rectangle\ 2.png);
@@ -327,7 +324,33 @@ line-height: 95px;
     background-repeat: no-repeat;
 }
 /*...........end holiday_offer...........*/
+/*...........start portfolio...........*/
 
+.service-container{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap:24px;
+    margin-top: 48px;
+}
+.portfolio .service-container .box{
+    overflow: hidden; 
+    max-width: 424px;
+    height: 448px;
+}
+.portfolio .service-container .box img{
+  
+    transition: 0.4s;
+}
+.portfolio .service-container .box:hover img{
+  
+    transform: scale(1.4) rotate(15deg);
+    
+    }
+
+
+/*...........end portfolio...........*/
 /*...........start Newsletter...........*/
 
 .Newsletter .container{
@@ -370,7 +393,7 @@ form input{
     border: none;
     outline:none;
 }
-.Subscribtion_btn{
+.Subscribtion-btn{
     padding:24px 56px;
     border-radius: 0px 50px 50px 0px;
     color:#FFF;
@@ -395,8 +418,12 @@ footer{
     background: #070211;
 }
 footer .container{
-    margin:120px 140px 0 140px;
+    margin:0 auto; 
     max-width: 1320px;
+}
+footer .row{
+    width:100%;
+    margin:120px 140px 0 140px;
 }
 footer .footer-head{
     display: flex;
