@@ -1,0 +1,59 @@
+
+/*..............google font..............*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Merriweather:wght@400;700;900&display=swap');
+/*............................*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  
+  }
+section{
+    margin:0 140px 120px 140px;
+    max-width: 1320px;
+}
+
+.container{
+    width: 100%;
+    
+    
+}
+img{
+    width: 100%;
+}
+
+/*............................*/
+/* ..........banner_section.................*/
+
+.banner_section .container{
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url(image/Banner\ Image.png);
+    margin-top: 50px;
+    height: 600px;
+    background-size: cover; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.banner_section .container .banner h4{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 32px;
+    margin-top: 177px;
+    font-weight: 400;
+
+}
+.banner_section .container .banner h2{
+    color: #FFF;
+text-align: center;
+font-family: 'Merriweather', serif;
+font-size: 72px;
+margin:0 344px 177px 344px;
+font-weight: 900;
+line-height: 95px; 
+}
+/*......................*/
